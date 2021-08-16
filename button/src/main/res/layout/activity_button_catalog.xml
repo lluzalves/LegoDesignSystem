@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LegoButtonViewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.legods.component.button.LegoButtonView
+                style="@style/Theme.LegoDesignSystem.DefaultButton"
+                android:layout_width="@dimen/primary_button_min_width"
+                android:layout_height="@dimen/primary_button_min_height"
+                android:layout_marginTop="8dp"
+                app:buttonText="@string/primary"
+                app:buttonViewBackground="@drawable/ripple_effect_button"
+                app:isClickable="true"
+                app:buttonRightIcon="@drawable/ic_baseline_chevron_right_24"
+                app:isFocusable="true" />
+
+            <com.legods.component.button.LegoButtonView
+                style="@style/Theme.LegoDesignSystem.DefaultButton"
+                android:layout_width="@dimen/primary_button_min_width"
+                android:layout_height="@dimen/primary_button_min_height"
+                android:layout_marginTop="8dp"
+                app:buttonText="@string/primary"
+                app:buttonViewBackground="@drawable/ripple_effect_button"
+                app:buttonDisabledState="true"
+                app:isClickable="false"
+                app:isFocusable="true" />
+
+            <com.legods.component.button.LegoButtonView
+                style="@style/Theme.LegoDesignSystem.DefaultButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/primary_button_min_height"
+                android:layout_marginTop="8dp"
+                app:buttonText="@string/primary"
+                app:buttonViewBackground="@drawable/ripple_effect_button"
+                app:isClickable="false"
+                app:isFocusable="true"
+                app:buttonLeftIcon="@drawable/ic_heart"/>
+
+            <com.legods.component.button.LegoButtonView
+                style="@style/Theme.LegoDesignSystem.DefaultButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/primary_button_min_height"
+                android:layout_marginTop="8dp"
+                app:buttonText="@string/primary"
+                app:buttonViewBackground="@drawable/ripple_effect_button"
+                app:isClickable="false"
+                app:isFocusable="true"
+                app:buttonRightIcon="@drawable/ic_baseline_chevron_right_24"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>

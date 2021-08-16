@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LegoDesignSystem.DefaultButton">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.TextButton</item>
+    </style>
+
+    <style name="Theme.LegoDesignSystem.DefaultButton.Small">
+        <item name="android:minWidth">@dimen/primary_button_min_width</item>
+        <item name="android:minHeight">@dimen/primary_button_min_height</item>
+    </style>
+
+</resources>

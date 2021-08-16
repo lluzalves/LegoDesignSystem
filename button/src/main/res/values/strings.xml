@@ -1,0 +1,4 @@
+<resources>
+    <string name="primary">Primary</string>
+    <string name="primary_with_icon">Primary Icon</string>
+</resources>

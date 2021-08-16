@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/cell_image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_16dp"
+        android:padding="@dimen/cell_padding_vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <ImageView
+            android:id="@+id/cell_image"
+            android:layout_width="@dimen/spacing_40dp"
+            android:layout_height="@dimen/spacing_40dp"
+            android:layout_gravity="center"
+            android:importantForAccessibility="yes"
+            tools:src="@tools:sample/avatars"
+            tools:visibility="visible" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cell_circular_image"
+            android:layout_width="@dimen/spacing_40dp"
+            android:layout_height="@dimen/spacing_40dp"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop"
+            app:shapeAppearance="@style/AvatarView"
+            tools:src="@tools:sample/cities"
+            tools:visibility="visible" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/cell_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="@dimen/card_event_margin_icon"
+        android:textAppearance="@style/AppTheme.TextAppearance.Subtitle1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/cell_image_container"
+        app:layout_constraintStart_toEndOf="@+id/cell_image_container"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

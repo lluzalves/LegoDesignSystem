@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <color name="lego_color_yellow">#FFBD12</color>
+    <color name="lego_color_yellow_800">#FFD465</color>
+    <color name="lego_color_yellow_100">#FFF4CC</color>
+
+    <color name="lego_color_green">#00C6AE</color>
+    <color name="lego_color_green_800">#61E4C5</color>
+    <color name="lego_color_green_100">#D6FCF7</color>
+
+    <color name="lego_color_red">#F95A2C</color>
+    <color name="lego_color_red_800">#FF9692</color>
+    <color name="lego_color_red_100">#FFE8E8</color>
+
+    <color name="lego_color_blue">#1947E5</color>
+    <color name="lego_color_blue_800">#8094FF</color>
+    <color name="lego_color_blue_100">#E9E7FC</color>
+
+    <color name="lego_color_black">#18191F</color>
+    <color name="lego_color_black_800">#474A57</color>
+    <color name="lego_color_black_700">#969BAB</color>
+    <color name="lego_color_black_300">#9FA4B4</color>
+    <color name="lego_color_black_200">#EEEFF4</color>
+    <color name="lego_color_black_100">#F4F5F7</color>
+
+    <color name="lego_color_white">#EEEFF4</color>
+
+
+</resources>

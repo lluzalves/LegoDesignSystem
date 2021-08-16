@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LegoButtonView">
+        <attr name="buttonText" format="string" />
+        <attr name="buttonViewBackground" format="reference" />
+        <attr name="buttonDisabledState" format="boolean" />
+        <attr name="isClickable" format="boolean" />
+        <attr name="isFocusable" format="boolean" />
+        <attr name="buttonRightIcon" format="reference" />
+        <attr name="buttonLeftIcon" format="reference"/>
+    </declare-styleable>
+</resources>

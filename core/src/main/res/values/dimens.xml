@@ -1,0 +1,57 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="spacing_2dp">2dp</dimen>
+    <dimen name="spacing_4dp">4dp</dimen>
+    <dimen name="spacing_6dp">6dp</dimen>
+    <dimen name="spacing_8dp">8dp</dimen>
+    <dimen name="spacing_12dp">12dp</dimen>
+    <dimen name="spacing_16dp">16dp</dimen>
+    <dimen name="spacing_24dp">24dp</dimen>
+    <dimen name="spacing_32dp">32dp</dimen>
+
+    <dimen name="card_min_width">264dp</dimen>
+
+    <dimen name="card_vertical_padding">24dp</dimen>
+    <dimen name="card_horizontal_padding">24dp</dimen>
+
+    <dimen name="avatar_lg_width">170dp</dimen>
+    <dimen name="avatar_lg_height">170dp</dimen>
+
+    <dimen name="avatar_md_width">80dp</dimen>
+    <dimen name="avatar_md_height">80dp</dimen>
+
+    <dimen name="avatar_sm_width">60dp</dimen>
+    <dimen name="avatar_sm_height">60dp</dimen>
+
+    <dimen name="cell_max_height">56dp</dimen>
+    <dimen name="cell_padding_vertical">24dp</dimen>
+    <dimen name="cell_padding_icon">24dp</dimen>
+    <dimen name="cell_padding_horizontal">24dp</dimen>
+
+    <dimen name="primary_button_min_width">167dp</dimen>
+    <dimen name="primary_button_min_height">60dp</dimen>
+    <dimen name="primary_button_padding_vertical">16dp</dimen>
+    <dimen name="primary_button_padding_horizontal">24dp</dimen>
+    <dimen name="primary_button_icon_margin">6dp</dimen>
+
+
+    <dimen name="secondary_button_min_width">167dp</dimen>
+    <dimen name="secondary_button_min_height">60dp</dimen>
+    <dimen name="secondary_button_min_width_with_icon">197dp</dimen>
+    <dimen name="secondary_button_padding_vertical">16dp</dimen>
+    <dimen name="secondary_button_padding_horizontal">24dp</dimen>
+    <dimen name="secondary_button_icon_margin">6dp</dimen>
+    <dimen name="secondary_button_text_size">17sp</dimen>
+
+    <dimen name="card_event_min_width">264dp</dimen>
+    <dimen name="card_event_min_height">296dp</dimen>
+    <dimen name="card_event_margin_icon">6dp</dimen>
+    <dimen name="card_padding_horizontal">24dp</dimen>
+    <dimen name="card_padding_vertical">24dp</dimen>
+
+    <dimen name="icon_width">22dp</dimen>
+    <dimen name="icon_height">20dp</dimen>
+    <dimen name="spacing_40dp">40dp</dimen>
+
+
+</resources>

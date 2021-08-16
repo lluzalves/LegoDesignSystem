@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Fonts">
+        <attr name="font_montserrat_black" format="string" />
+        <attr name="font_montserrat_black_italic" format="string" />
+        <attr name="font_montserrat_bold" format="string" />
+        <attr name="font_montserrat_bold_italic" format="string" />
+        <attr name="font_montserrat_extra_bold" format="string" />
+        <attr name="font_montserrat_extra_bold_italic" format="string" />
+        <attr name="font_montserrat_extra_light" format="string" />
+        <attr name="font_montserrat_extra_light_italic" format="string" />
+        <attr name="font_montserrat_medium" format="string" />
+        <attr name="font_montserrat_medium_italic" format="string" />
+        <attr name="font_montserrat_regular" format="string" />
+        <attr name="font_montserrat_semi_bold" format="string" />
+        <attr name="font_montserrat_semi_bold_italic" format="string" />
+        <attr name="font_montserrat_thin" format="string" />
+        <attr name="font_montserrat_thin_italic" format="string" />
+    </declare-styleable>
+
+</resources>
